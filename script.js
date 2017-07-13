@@ -20,5 +20,20 @@ var app = {
             $(this).toggle().prev().toggle();
         });
 
+        var e = $('*');
+        e.children()
+            .mouseenter(function(){
+                $(this).animate({
+                    height:'+=20',
+                    width: '+=20'
+                });
+            })
+            .mouseleave(function(){
+                 $(this).animate({
+                    height:'-=20',
+                    width: '-=20'
+                });
+            });
+
     }
 }
