@@ -84,8 +84,8 @@ body{
     padding-bottom:2%;
 }
 
-#image img{
- padding:0px;
- margin-bottom:0px;
+#image{
+    text-align:center;
+    margin:0 auto;
+    padding:0;
 }
-
