@@ -1,52 +1,46 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css" >
+        <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+        <script src="jquery.js"></script>
+        <script src="script.js"></script>
     </head>
     <body>
-        <div class="row center">
-            <div id="image">
-                <img src="google.png"/>
-            </div>
-        </div>
-        <div  class="row">
-            <div id="search-panel" class="col-12 search center">
-                <form>
-                    <input id="search-bar" type="text"/><br>
-                    <button type="button">Submit</button>
-                    <button type="button">I'm feeling lucky</button>
-                </form>
-            </div>
-        </div>
-        <div class="row last">
-            <div id="one" class="col-4 center fill-bottom">
-               <ul class="styleless">
-                    <li>Special Searches</li>
-                    <li><a href="#">linux search</a></li>
-                    <li><a href="#">advanced search</a></li>
-                </ul>
-            </div>
-            <div id="two" class="col-2 center fill-bottom">
-                <ul class="styleless">
-                    <li><a href="#">Help!</a></li>
-                    <li><a href="#">linux search</a></li>
-                    <li><a href="#">advanced search</a></li>
-                </ul>
+        <div id="container">
+            <div id="header" class="width">
+                <div  class="text-center">
+                <img  src="google.png"></img>
                 </div>
-                <div id="three" class="col-6 center fill-bottom">
-                   
-                   <form class="Center">
-                      <p> Get Updates!<br>
-                       register now
-                  </small><p>
-                        <input type="text" placeholder="email"/>
-                        <button type="button">Send</button>
-                   </form>
+            </div>
+            <div id="search-bar" class="width text-center">
+                <div class="width">
+                <input type="text" />
+                <div><button>submit</button>
+                <button>feelin' lucky</button></div>
                 </div>
-        </div>
-        <div class="row center">
-            <div class="col-12">
-                <tiny>Copyright of Google.com</tiny>
+            </div>
+            <div id="panels" class="width text-center">
+                <div id="panel-one" class="height first">
+                    <p>posjfpdf</p>
+                </div>
+                <div  class="height first hide dummy">
+                    <p>posjfpdf</p>
+                </div>
+                <div id="panel-two" class="height first">
+                    <p>fffergerg</p>
+                </div>
+                <div  class="height first hide dummy">
+                    <p></p>
+                </div>
+                <div id="panel-three" class="height last">
+                   <p> rfgergergeg</p>
+                </div>
+                <div  class="height last hide dummy">
+                   <p> rfgergergeg</p>
+                </div>
+            </div>
+            <div id="footer" class="width text-center">
+              <p>Property of Google Inc</p>            
             </div>
         </div>
     </body>
